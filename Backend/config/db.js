@@ -4,7 +4,7 @@ const connectDB = async () => {
   try {
     await mongoose
       .connect(
-        "mongodb+srv://jarvis2799:BpltlpheQDic6uRy@cluster0.rqlv6.mongodb.net/",
+        "mongodb+srv://jarvis2799:BpltlpheQDic6uRy@cluster0.rqlv6.mongodb.net/job_board",
         {
           useNewUrlParser: true,
           useUnifiedTopology: true,
