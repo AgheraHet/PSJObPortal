@@ -1,7 +1,7 @@
 export const fetchJobs = async (page, limit, setJobs, setTotalJobs) => {
   try {
     const response = await fetch(
-      `http://localhost:3000/api/jobs?page=${page}&limit=${limit}`
+      `https://psjobportal.onrender.com/api/jobs?page=${page}&limit=${limit}`
     );
     const data = await response.json();
     setJobs(data.jobs);
@@ -10,3 +10,4 @@ export const fetchJobs = async (page, limit, setJobs, setTotalJobs) => {
     console.error("Error fetching jobs:", error);
   }
 };
+s
