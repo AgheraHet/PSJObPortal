@@ -10,4 +10,3 @@ export const fetchJobs = async (page, limit, setJobs, setTotalJobs) => {
     console.error("Error fetching jobs:", error);
   }
 };
-s
